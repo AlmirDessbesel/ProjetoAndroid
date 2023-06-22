@@ -36,7 +36,7 @@ public class TelaDeLogin extends AppCompatActivity {
                 String username = login_tv.getText().toString();
                 String password = password_tv.getText().toString();
 
-                if (username.equals("admin") && (password.equals("12345")))
+                if (username.equals("almir") && (password.equals("12345")))
                 {
                     Toast.makeText(TelaDeLogin.this, "Login realizado com sucesso", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
