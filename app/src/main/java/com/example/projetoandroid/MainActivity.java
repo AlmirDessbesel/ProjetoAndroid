@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements CategoryAdapter.H
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setTitle("Lista de compras");
+        getSupportActionBar().setTitle("Roteiro de Estudos");
         semResultadoTV = findViewById(R.id.semResultado);
         recyclerView= findViewById(R.id.recyclerView);
         ImageView addCategoria = findViewById(R.id.addCategoriaImagem);

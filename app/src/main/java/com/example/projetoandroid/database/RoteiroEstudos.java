@@ -10,7 +10,7 @@ import androidx.room.Update;
 import java.util.List;
 
 @Dao
-public interface ListaCompras {
+public interface RoteiroEstudos {
 
     @Query("Select * from Category")
     List<com.example.projetoandroid.database.Category> pegarTodasCategorias();

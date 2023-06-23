@@ -10,7 +10,7 @@ import androidx.room.RoomDatabase;
 public abstract class DataBase extends RoomDatabase {
 
 
-    public abstract  ListaCompras listaCompras();
+    public abstract RoteiroEstudos roteiroEstudos();
 
     public static DataBase INSTANCE;
 
